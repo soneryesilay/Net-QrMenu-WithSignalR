@@ -1,0 +1,60 @@
+﻿@model List<ResultAboutDto>
+@{
+    Layout = null;
+}
+
+
+
+<!DOCTYPE html>
+<html>
+
+@await Component.InvokeAsync("_UILayoutHeadPartialComponent")
+
+<body class="sub_page">
+
+    <div class="hero_area">
+        <div class="bg-box">
+            <img src="images/hero-bg.jpg" alt="">
+        </div>
+        @await Component.InvokeAsync("_AboutNavbarPartialComponent")
+    </div>
+
+
+
+    <section class="about_section layout_padding">
+        <div class="container  ">
+
+            <div class="row">
+                <div class="col-md-6 ">
+                    <div class="img-box">
+                        <img src="~/Main/images/about-img.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="detail-box">
+                        @foreach (var item in Model)
+                        {
+                            <div class="heading_container">
+                                <h2>
+                                    @item.title
+                                </h2>
+                            </div>
+                            <p>
+                                @item.description
+                            </p>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    @await Component.InvokeAsync("_UILayoutFooterPartialComponent")
+
+    @await Component.InvokeAsync("_UILayoutScriptPartialComponent")
+
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QrMenuAPI", "QrMenuAPI\QrMenuAPI.csproj", "{295A5356-1E3A-4A06-876A-FF3EFFF6CD10}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QrMenuWebUI", "QrMenuWebUI\QrMenuWebUI.csproj", "{76959BAD-7C5B-4D21-A8D1-A48B8D166241}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QrMenu.EntityLayer", "QrMenu.EntityLayer\QrMenu.EntityLayer.csproj", "{B34E4F80-DC09-4777-989D-38394166FBBE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QrMenu.DataAccessLayer", "QrMenuDataAccessLayer\QrMenu.DataAccessLayer.csproj", "{C906BE68-DDBE-4394-B55B-F983ADBF4CF5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QrMenu.DtoLayer", "QrMenuDtoLayer\QrMenu.DtoLayer.csproj", "{A1957D39-A293-4ED0-BE2E-3110B3A5F368}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QrMenu.BusinessLayer", "QrMenu.BusinessLayer\QrMenu.BusinessLayer.csproj", "{31DB8344-76A2-4C21-9651-10F868E848BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "To-Do List", "To-Do List", "{930CC636-0516-4702-AB23-C90FBBAD8245}"
+	ProjectSection(SolutionItems) = preProject
+		To-do list.txt = To-do list.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{295A5356-1E3A-4A06-876A-FF3EFFF6CD10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{295A5356-1E3A-4A06-876A-FF3EFFF6CD10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{295A5356-1E3A-4A06-876A-FF3EFFF6CD10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{295A5356-1E3A-4A06-876A-FF3EFFF6CD10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76959BAD-7C5B-4D21-A8D1-A48B8D166241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76959BAD-7C5B-4D21-A8D1-A48B8D166241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76959BAD-7C5B-4D21-A8D1-A48B8D166241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76959BAD-7C5B-4D21-A8D1-A48B8D166241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B34E4F80-DC09-4777-989D-38394166FBBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B34E4F80-DC09-4777-989D-38394166FBBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B34E4F80-DC09-4777-989D-38394166FBBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B34E4F80-DC09-4777-989D-38394166FBBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C906BE68-DDBE-4394-B55B-F983ADBF4CF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C906BE68-DDBE-4394-B55B-F983ADBF4CF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C906BE68-DDBE-4394-B55B-F983ADBF4CF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C906BE68-DDBE-4394-B55B-F983ADBF4CF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1957D39-A293-4ED0-BE2E-3110B3A5F368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1957D39-A293-4ED0-BE2E-3110B3A5F368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1957D39-A293-4ED0-BE2E-3110B3A5F368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1957D39-A293-4ED0-BE2E-3110B3A5F368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31DB8344-76A2-4C21-9651-10F868E848BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31DB8344-76A2-4C21-9651-10F868E848BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31DB8344-76A2-4C21-9651-10F868E848BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31DB8344-76A2-4C21-9651-10F868E848BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A38EFE0C-257C-4723-9224-53E83A6D9FB1}
+	EndGlobalSection
+EndGlobal

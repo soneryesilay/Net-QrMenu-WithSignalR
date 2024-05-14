@@ -1,0 +1,47 @@
+
+
+ Y A P I L A C A K L A R
+
+HATALI OLANLAR
+---------------
+ÝNDÝRÝMLER = DURUM BUTONUNA REVÝZE GEREKLÝ, SÝLME ÝÞLEMÝ YAPIYOR  (tamamlandý)
+
+
+BUGS
+---------------
+SOSYAL MEDYA = GÜNCELLE DENDÝÐÝNDE YENÝSÝNÝ EKLÝYOR  (tamamlandý)
+
+
+EKLENECEKLER
+---------------
+categorycount		  (tamamlandý)
+productcount		  (tamamlandý)
+aktif kategori sayýsý (tamamlandý)
+pasif kategori sayýsý (tamamlandý)
+
+
+kategori adýna göre ürün sayýsý		 (tamamlandý)
+ürün adýna göre iþlem gerçekleþtirme (tamamlandý)
+
+ortalama fiyat (tamamlandý)
+en yüksek	   (tamamlandý)
+en az fiyat	   (tamamlandý)
+
+toplam sipariþ sayýsý ( bir ay - Toplam) (isteklere göre hepsi eklenebilir) (tamamlandý)
+
+aktif sipariþ sayýsý  (tamamlandý)
+son sipariþ tutarý	  (tamamlandý)
+
+
+kasadaki tutar		  (tamamlandý)
+bu günkü kazanç		  (tamamlandý)
+masa sayýsý			  (tamamlandý)
+
+--------------------------------------------
+
+Ýstatistiklerin consume edilmesi
+
+
+
+
+

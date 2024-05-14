@@ -1,0 +1,70 @@
+﻿@model CreateFeatureDto
+@{
+    ViewData["Title"] = "CreateFeature";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+
+<div class="content">
+	<div class="container-fluid">
+		<h4 class="page-title">Öne Çıkan Alan İşlemleri</h4>
+		<div class="row">
+			<div class="col-md-12">
+				<form method="post">
+					<div class="card">
+						<div class="card-header">
+							<div class="card-title">Yeni Öne Çıkan Alan Ekleme</div>
+						</div>
+						<div class="card-body">
+							<div class="form-group">
+								<label for="title1">1.Başlığı giriniz</label>
+								<input type="text" class="form-control" asp-for="title1" id="title1" placeholder="1.Başlık">
+							</div>
+						</div>
+
+						<div class="card-body">
+							<div class="form-group">
+								<label for="title2">2.Başlığı giriniz</label>
+								<input type="text" class="form-control" asp-for="title2" id="title2" placeholder="2.Başlık">
+							</div>
+						</div>
+
+						<div class="card-body">
+							<div class="form-group">
+								<label for="title3">3.Başlığı giriniz</label>
+								<input type="text" class="form-control" asp-for="title3" id="title3" placeholder="3.Başlık">
+							</div>
+						</div>
+
+						<div class="card-body">
+							<div class="form-group">
+								<label for="description1">1.Açıklamayı giriniz</label>
+								<input type="text" class="form-control" asp-for="description1" id="description1" placeholder="1.Açıklama">
+							</div>
+						</div>
+
+						<div class="card-body">
+							<div class="form-group">
+								<label for="description2">2.Açıklamayı giriniz</label>
+								<input type="text" class="form-control" asp-for="description2" id="description2" placeholder="2.Açıklama">
+							</div>
+						</div>
+
+						<div class="card-body">
+							<div class="form-group">
+								<label for="description3">3.Açıklamayı giriniz</label>
+								<input type="text" class="form-control" asp-for="description3" id="description3" placeholder="3.Açıklama">
+							</div>
+						</div>
+						<div class="card-action">
+							<button class="btn btn-primary">Öne Çıkan Alanı Ekle</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+

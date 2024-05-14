@@ -1,0 +1,56 @@
+﻿@model CreateDiscountDto
+
+@{
+    ViewData["Title"] = "CreateDiscount";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+
+
+<div class="content">
+	<div class="container-fluid">
+		<h4 class="page-title">İndirimli Ürün İşlemleri</h4>
+		<div class="row">
+			<div class="col-md-12">
+				<form method="post">
+					<div class="card">
+						<div class="card-header">
+							<div class="card-title">Yeni İndirimli Ürün Girişi</div>
+						</div>
+
+						<div class="card-body">
+							<div class="form-group">
+								<label for="title">Ürün adını giriniz</label>
+								<input type="text" class="form-control" asp-for="title" id="title" placeholder="Ürün adı">
+							</div>
+						</div>
+
+						<div class="card-body">
+							<div class="form-group">
+								<label for="amout">İndirim oranını giriniz</label>
+								<input type="text" class="form-control" asp-for="amout" id="amout" placeholder="%">
+							</div>
+						</div>
+
+						<div class="card-body">
+							<div class="form-group">
+								<label for="imageUrl">Ürün görselini giriniz</label>
+								<input type="text" class="form-control" asp-for="imageUrl" id="imageUrl" placeholder="Url">
+							</div>
+						</div>
+
+						<div class="card-body">
+							<div class="form-group">
+								<label for="description">Ürün Açıklamasını giriniz</label>
+								<input type="text" class="form-control" asp-for="description" id="description" placeholder="Açıklama">
+							</div>
+						</div>
+						<div class="card-action">
+							<button class="btn btn-primary">İndirimli Ürünü Ekle</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>

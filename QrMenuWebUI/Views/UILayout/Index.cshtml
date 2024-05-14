@@ -1,0 +1,26 @@
+﻿@{
+    Layout = null;
+
+}
+@* UI Layout *@
+<!DOCTYPE html>
+<html lang="tr">
+
+@await Component.InvokeAsync("_UILayoutHeadPartialComponent")
+
+<body>
+
+    @await Component.InvokeAsync("_UILayoutNavbarPartailComponent")
+
+    <!-- book section -->
+    @RenderBody()
+    <!-- end book section -->
+
+    <!-- footer section -->
+    @await Component.InvokeAsync("_UILayoutFooterPartialComponent")
+    
+    @await Component.InvokeAsync("_UILayoutScriptPartialComponent")
+    
+</body>
+
+</html>
