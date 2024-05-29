@@ -33,7 +33,7 @@ Bu proje, eğitim sürecinde öğrenilen konseptlerin uygulamalı olarak pekişt
 Clone the project:
 
 ```bash
-git clone https://github.com/soneryesilay/QrMenu-WithSignalR.git
+git clone https://github.com/soneryesilay/Net-QrMenu-WithSignalR.git
 ```
 Navigate to the project directory and compile/run the project:
 ```bash
